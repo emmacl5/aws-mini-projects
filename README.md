@@ -69,3 +69,30 @@ Each project includes:
 - 🧹 Resource Cleanup Instructions
 - 🛠️ Troubleshooting Guide
 - 📚 Lessons Learned
+
+---
+
+## 📂 Repository Structure
+
+```text
+aws-mini-projects/
+│
+├── README.md
+│
+├── 01-production-ready-static-website/
+│   ├── README.md
+│   ├── architecture/
+│   ├── cloudformation/
+│   ├── images/
+│   ├── assets/
+│   └── cleanup.md
+│
+├── 02-serverless-application/
+│
+├── 03-event-driven-application/
+│
+├── 04-three-tier-web-application/
+│
+└── assets/
+```
+Each project is self-contained and includes its own documentation, architecture diagrams, deployment templates, screenshots and cleanup instructions to make it easy to learn, reproduce and extend.
