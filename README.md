@@ -93,6 +93,6 @@ aws-mini-projects/
 │
 ├── 04-three-tier-web-application/
 │
-└── assets/
+└── shared-assets/
 ```
 Each project is self-contained and includes its own documentation, architecture diagrams, deployment templates, screenshots and cleanup instructions to make it easy to learn, reproduce and extend.
