@@ -21,3 +21,34 @@ My goal is to strengthen my cloud engineering skills by building production-insp
 | Three-Tier Web Application | ⏳ Planned | Amazon EC2, Application Load Balancer, Auto Scaling, Amazon RDS, VPC |
 
 ---
+
+---
+
+## 🛠️ Skills Demonstrated
+
+This repository demonstrates practical experience with the following cloud engineering skills:
+
+- AWS Solutions Architecture
+- Infrastructure as Code (CloudFormation)
+- Amazon S3 Static Website Hosting
+- Amazon CloudFront
+- AWS Identity and Access Management (IAM)
+- AWS Certificate Manager (ACM)
+- Amazon Route 53
+- Serverless Computing
+- Amazon API Gateway
+- AWS Lambda
+- Amazon DynamoDB
+- Event-Driven Architecture
+- Amazon EventBridge
+- Amazon Simple Queue Service (SQS)
+- Amazon Simple Notification Service (SNS)
+- Virtual Private Cloud (VPC)
+- Amazon EC2
+- Application Load Balancer (ALB)
+- Auto Scaling
+- Amazon RDS
+- Cloud Security Best Practices
+- Monitoring and Logging
+- Cost Optimization
+
