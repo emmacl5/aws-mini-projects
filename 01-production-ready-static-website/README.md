@@ -1,6 +1,10 @@
 # Project 01: Production-Ready Static Website Hosting
 
-This project demonstrates how to deploy a secure, production-ready static website on AWS using Amazon S3, Amazon CloudFront, AWS Certificate Manager, IAM, and CloudFormation.
+## Project Overview
+
+This project demonstrates how to deploy an existing responsive website to AWS using modern cloud architecture and security best practices.
+
+The website is hosted on Amazon S3, delivered globally using Amazon CloudFront and will later be automated with AWS CloudFormation.
 
 ## Project Status
 
