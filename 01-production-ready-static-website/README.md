@@ -70,6 +70,19 @@ By completing this project I learned how to:
 
 ![CloudFront](images/cloudfront-distribution.png)
 
+### Origin Access Control (OAC)
+
+To secure the website, the CloudFront distribution uses **Origin Access Control (OAC)**. This allows CloudFront to securely retrieve objects from the private Amazon S3 bucket while preventing direct public access to the bucket.
+
+**Security Benefits**
+
+- Only CloudFront can access the S3 bucket.
+- The S3 bucket remains private.
+- Prevents users from bypassing CloudFront.
+- Follows AWS security best practices.
+
+![Origin Access Control](images/origin-access-control.png)
+
 ### Amazon S3 Bucket
 
 ![S3 Bucket](images/s3-bucket.png)
