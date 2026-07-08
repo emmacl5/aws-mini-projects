@@ -68,7 +68,7 @@ By completing this project I learned how to:
 
 ### Amazon CloudFront
 
-![CloudFront](images/cloudfront.png)
+![CloudFront](images/cloudfront-distribution.png)
 
 ### Amazon S3 Bucket
 
