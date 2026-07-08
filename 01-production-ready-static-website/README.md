@@ -87,6 +87,12 @@ To secure the website, the CloudFront distribution uses **Origin Access Control 
 
 ![S3 Bucket](images/s3-bucket.png)
 
+### Amazon S3 Bucket Policy
+
+The Amazon S3 bucket policy grants read-only access exclusively to the CloudFront distribution using Origin Access Control (OAC). This prevents direct public access to the bucket while allowing CloudFront to securely serve website content.
+
+![S3 Bucket Policy](images/s3-bucket-policy.png)
+
 ## ✨ Features
 
 - Responsive static website
