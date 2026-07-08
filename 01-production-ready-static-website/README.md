@@ -1,5 +1,10 @@
 # Project 01: Production-Ready Static Website Hosting on AWS
 
+![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20CloudFront-orange?logo=amazonaws)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Architecture](https://img.shields.io/badge/Architecture-Production%20Ready-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## 📖 Project Overview
 
 This project demonstrates how to deploy a production-ready static website on AWS using modern cloud architecture and security best practices.
@@ -9,6 +14,41 @@ The website is hosted in a private Amazon S3 bucket and delivered globally throu
 The project uses an existing responsive website (Omnifood) as the application and focuses on implementing AWS production best practices rather than frontend development.
 
 ---
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Live Demo](#-live-demo)
+- [AWS Services Used](#-aws-services-used)
+- [Architecture](#-architecture)
+- [Screenshots](#-screenshots)
+- [Features](#-features)
+- [Deployment Summary](#-deployment-summary)
+- [Security Best Practices](#-security-best-practices)
+- [Estimated Cost](#-estimated-cost)
+- [Cleanup](#-cleanup)
+- [Lessons Learned](#-lessons-learned)
+- [Future Improvements](#-future-improvements)
+
+## 📁 Project Structure
+
+01-production-ready-static-website/
+├── architecture/
+│   ├── architecture.drawio
+│   ├── architecture.png
+│   └── architecture.svg
+├── cloudformation/
+├── images/
+│   ├── live-website.png
+│   ├── cloudfront-distribution.png
+│   ├── origin-access-control.png
+│   ├── s3-bucket.png
+│   └── s3-bucket-policy.png
+├── website-source/
+│   ├── css/
+│   ├── img/
+│   ├── index.html
+│   └── script.js
+└── README.md
 
 ## 🚀 Live Demo
 
@@ -57,6 +97,28 @@ By completing this project I learned how to:
 
 ## 🏗️ Architecture
 
+The website follows a secure production-inspired AWS architecture.
+
+**Request Flow**
+
+Internet User
+
+↓
+
+Amazon CloudFront
+
+↓
+
+Origin Access Control (OAC)
+
+↓
+
+Private Amazon S3 Bucket
+
+↓
+
+Static Website Files
+
 ![Architecture](architecture/architecture.png)
 
 ---
@@ -95,19 +157,19 @@ The Amazon S3 bucket policy grants read-only access exclusively to the CloudFron
 
 ## ✨ Features
 
-- Responsive static website
-- Global content delivery
-- HTTPS support
-- Private Amazon S3 bucket
-- Secure CloudFront distribution
-- Origin Access Control (OAC)
-- Block Public Access enabled
-- Easy content updates
-- Production-inspired AWS architecture
+- ✅ Responsive website
+- ✅ Global content delivery
+- ✅ HTTPS support
+- ✅ Private Amazon S3 bucket
+- ✅ Origin Access Control (OAC)
+- ✅ Secure CloudFront distribution
+- ✅ Block Public Access enabled
+- ✅ Production-inspired architecture
+- ✅ Optimized website performance
 
 ---
 
-## 🚀 Deployment Summary
+## 🚀 Deployment Steps
 
 The deployment included:
 
@@ -123,6 +185,19 @@ The deployment included:
 10. Invalidating the CloudFront cache
 
 ---
+
+## 🛠 Skills Demonstrated
+
+- Amazon S3
+- Amazon CloudFront
+- Origin Access Control (OAC)
+- S3 Bucket Policies
+- Static Website Hosting
+- Content Delivery Networks (CDN)
+- AWS Security Best Practices
+- Troubleshooting CloudFront
+- Git
+- GitHub Documentation
 
 ## 🔒 Security Best Practices
 
@@ -159,21 +234,24 @@ To avoid unnecessary AWS charges:
 5. Delete ACM certificate (if created)
 
 ---
-
 ## 📚 Lessons Learned
 
-This project reinforced several AWS concepts including:
+During this project I learned how to:
 
-- Static website hosting
-- CDN architecture
-- CloudFront caching
-- Secure S3 access
-- Origin Access Control
-- Bucket policies
-- CloudFront troubleshooting
-- Production deployment workflow
+- Design a secure static website architecture
+- Troubleshoot CloudFront Access Denied errors
+- Configure Origin Access Control correctly
+- Keep Amazon S3 private while serving content publicly
+- Update production content without downtime
+- Document cloud projects professionally
 
 ---
+
+## 📖 References
+
+- AWS S3 Documentation
+- AWS CloudFront Documentation
+- AWS Origin Access Control Documentation
 
 ## 🚀 Future Improvements
 
@@ -189,6 +267,16 @@ This project reinforced several AWS concepts including:
 
 ## 👨‍💻 Author
 
-**Claude Ouamba**
+**Claude Emmanuel Ouamba**
 
-AWS Certified Solutions Architect
+Cloud & DevOps Engineer
+
+### 🏅 Certifications
+
+- ✅ AWS Certified Solutions Architect – Associate
+- ✅ AWS Certified Cloud Practitioner
+- ✅ HashiCorp Certified: Terraform Associate
+
+### 🌐 Connect with Me
+GitHub: https://github.com/emmacl5
+LinkedIn: [https://linkedin.com/in/YOUR-LINK](https://www.linkedin.com/in/emmanuel-ouamba-418421116/)
