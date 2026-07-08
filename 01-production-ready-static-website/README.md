@@ -170,6 +170,6 @@ This project reinforced several AWS concepts including:
 
 ## 👨‍💻 Author
 
-**Emmanuel Ouamba**
+**Claude Ouamba**
 
 AWS Certified Solutions Architect
