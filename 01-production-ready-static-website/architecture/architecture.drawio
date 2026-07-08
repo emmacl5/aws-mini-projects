@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="pyLF4xIGNN1zHCh1leEL">
+    <mxGraphModel dx="1098" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-33" edge="1" parent="1" source="TnQ8QXaR7SWsjblwY8IO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.70588235294144" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-1" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" value="" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-2" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" value="" vertex="1">
+          <mxGeometry height="90" width="90" x="360" y="520.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;fillOpacity=10;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;🌍 Internet Users&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-35" edge="1" parent="1" source="TnQ8QXaR7SWsjblwY8IO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.70588235294144" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;align=center;fontSize=17;" value="&lt;font&gt;Origin Access Control (OAC)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="126.5" x="337" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Production-Ready Static Website Hosting on AWS&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Amazon S3 + CloudFront + Origin Access Control (OAC)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="470" x="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;Amazon CloudFront&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;Global CDN&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;HTTPS&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;Caching&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="414" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;align=center;" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; line-height: 90%;&quot;&gt;Amazon S3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; line-height: 90%;&quot;&gt;Private Bucket&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;align=center;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Block Public Access Enabled&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="345" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=1;align=center;" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; line-height: 90%;&quot;&gt;HTML&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; line-height: 90%;&quot;&gt;CSS&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; line-height: 90%;&quot;&gt;JavaScript&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; line-height: 90%;&quot;&gt;Images&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="130" x="338.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;" value="&lt;div&gt;Designed by Claude Ouamba&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AWS Certified Solutions Architect&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="240" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=10;" value="" vertex="1">
+          <mxGeometry height="760" width="560" x="120.25" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeOpacity=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;AWS Cloud&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="345" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TnQ8QXaR7SWsjblwY8IO-36" edge="1" parent="1" source="TnQ8QXaR7SWsjblwY8IO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.456;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="TnQ8QXaR7SWsjblwY8IO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
