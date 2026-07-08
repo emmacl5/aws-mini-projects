@@ -31,6 +31,7 @@ The project uses an existing responsive website (Omnifood) as the application an
 
 ## 📁 Project Structure
 
+```text
 01-production-ready-static-website/
 ├── architecture/
 │   ├── architecture.drawio
@@ -49,6 +50,7 @@ The project uses an existing responsive website (Omnifood) as the application an
 │   ├── index.html
 │   └── script.js
 └── README.md
+```
 
 ## 🚀 Live Demo
 
@@ -279,4 +281,4 @@ Cloud & DevOps Engineer
 
 ### 🌐 Connect with Me
 GitHub: https://github.com/emmacl5
-LinkedIn: [https://linkedin.com/in/YOUR-LINK](https://www.linkedin.com/in/emmanuel-ouamba-418421116/)
+LinkedIn: [https://linkedin.com/in/emmanuel-ouamba](https://www.linkedin.com/in/emmanuel-ouamba-418421116/)
