@@ -64,7 +64,7 @@ By completing this project I learned how to:
 
 ### Live Website
 
-![Live Website](images/live-website.png)
+![live-website](images/live-website.png)
 
 ### Amazon CloudFront
 
