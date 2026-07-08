@@ -1,43 +1,175 @@
-# Project 01: Production-Ready Static Website Hosting
+# Project 01: Production-Ready Static Website Hosting on AWS
 
-## Project Overview
+## 📖 Project Overview
 
-This project demonstrates how to deploy an existing responsive website to AWS using modern cloud architecture and security best practices.
+This project demonstrates how to deploy a production-ready static website on AWS using modern cloud architecture and security best practices.
 
-The website is hosted on Amazon S3, delivered globally using Amazon CloudFront and will later be automated with AWS CloudFormation.
+The website is hosted in a private Amazon S3 bucket and delivered globally through Amazon CloudFront using Origin Access Control (OAC). This architecture provides secure, scalable, and high-performance content delivery while preventing direct public access to the S3 bucket.
 
-## Project Status
+The project uses an existing responsive website (Omnifood) as the application and focuses on implementing AWS production best practices rather than frontend development.
 
-🚧 In Progress
+---
 
-## AWS Services Used
+## 🚀 Live Demo
 
-- Amazon S3
-- Amazon CloudFront
-- AWS Certificate Manager
-- AWS Identity and Access Management
-- AWS CloudFormation
-- Amazon Route 53
+**CloudFront URL**
 
-## Learning Objectives
+https://d2gwt9hqgviqsx.cloudfront.net
 
-By completing this project, I will learn how to:
+---
 
-- Host static website files on Amazon S3
-- Serve content globally with Amazon CloudFront
-- Secure website delivery using HTTPS
-- Restrict direct public access to S3
-- Deploy infrastructure using CloudFormation
-- Estimate costs and clean up AWS resources safely
+## 📌 Project Status
 
-## Architecture
+✅ Completed
 
-Architecture diagram will be added later.
+---
 
-## Deployment Guide
+## ☁️ AWS Services Used
 
-Deployment steps will be documented as the project is built.
+| Service | Purpose |
+|----------|---------|
+| Amazon S3 | Store static website files |
+| Amazon CloudFront | Global Content Delivery Network (CDN) |
+| Origin Access Control (OAC) | Secure CloudFront access to the private S3 bucket |
+| AWS Identity and Access Management (IAM) | AWS account permissions |
+| AWS Certificate Manager (Future) | HTTPS certificate for custom domain |
+| Amazon Route 53 (Future) | Custom domain management |
+| AWS CloudFormation (Future) | Infrastructure as Code |
 
-## Cleanup
+---
 
-Cleanup instructions will be added after deployment testing.
+## 🎯 Learning Objectives
+
+By completing this project I learned how to:
+
+- Deploy a static website to Amazon S3
+- Configure Amazon CloudFront
+- Configure Origin Access Control (OAC)
+- Keep the S3 bucket private
+- Create and apply an S3 Bucket Policy
+- Configure the Default Root Object
+- Debug CloudFront Access Denied errors
+- Update website files after deployment
+- Invalidate CloudFront cache after updates
+- Deploy websites using AWS production best practices
+
+---
+
+## 🏗️ Architecture
+
+![Architecture](architecture/architecture.png)
+
+---
+## 📸 Screenshots
+
+### Live Website
+
+![Live Website](images/live-website.png)
+
+### Amazon CloudFront
+
+![CloudFront](images/cloudfront.png)
+
+### Amazon S3 Bucket
+
+![S3 Bucket](images/s3-bucket.png)
+
+## ✨ Features
+
+- Responsive static website
+- Global content delivery
+- HTTPS support
+- Private Amazon S3 bucket
+- Secure CloudFront distribution
+- Origin Access Control (OAC)
+- Block Public Access enabled
+- Easy content updates
+- Production-inspired AWS architecture
+
+---
+
+## 🚀 Deployment Summary
+
+The deployment included:
+
+1. Creating a private Amazon S3 bucket
+2. Uploading the website files
+3. Creating an Amazon CloudFront distribution
+4. Configuring Origin Access Control
+5. Applying the S3 bucket policy
+6. Setting the default root object
+7. Testing the website
+8. Debugging deployment issues
+9. Updating the website after fixes
+10. Invalidating the CloudFront cache
+
+---
+
+## 🔒 Security Best Practices
+
+- Private S3 bucket
+- Block Public Access enabled
+- Origin Access Control (OAC)
+- HTTPS delivery through CloudFront
+- Least privilege bucket policy
+
+---
+
+## 💰 Estimated Cost
+
+This project is eligible for the AWS Free Tier in many cases.
+
+Typical monthly cost for low traffic:
+
+| Service | Estimated Cost |
+|----------|---------------:|
+| Amazon S3 | Free or very low |
+| CloudFront | Free or a few cents |
+| Route 53 | Approximately $0.50/month per hosted zone (when added) |
+
+---
+
+## 🧹 Cleanup
+
+To avoid unnecessary AWS charges:
+
+1. Delete the CloudFront distribution
+2. Delete the S3 bucket contents
+3. Delete the S3 bucket
+4. Remove Route 53 hosted zone (if created)
+5. Delete ACM certificate (if created)
+
+---
+
+## 📚 Lessons Learned
+
+This project reinforced several AWS concepts including:
+
+- Static website hosting
+- CDN architecture
+- CloudFront caching
+- Secure S3 access
+- Origin Access Control
+- Bucket policies
+- CloudFront troubleshooting
+- Production deployment workflow
+
+---
+
+## 🚀 Future Improvements
+
+- Deploy using AWS CloudFormation
+- Register a custom domain
+- Configure AWS Certificate Manager
+- Create a CI/CD pipeline using GitHub Actions
+- Automate cache invalidation
+- Add AWS WAF
+- Add CloudWatch monitoring
+
+---
+
+## 👨‍💻 Author
+
+**Emmanuel Ouamba**
+
+AWS Certified Solutions Architect
