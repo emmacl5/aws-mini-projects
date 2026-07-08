@@ -280,5 +280,8 @@ Cloud & DevOps Engineer
 - ✅ HashiCorp Certified: Terraform Associate
 
 ### 🌐 Connect with Me
-GitHub: https://github.com/emmacl5
-LinkedIn: [https://linkedin.com/in/emmanuel-ouamba](https://www.linkedin.com/in/emmanuel-ouamba-418421116/)
+
+| Platform | Link |
+|----------|------|
+| GitHub | https://github.com/emmacl5 |
+| LinkedIn | https://www.linkedin.com/in/emmanuel-ouamba |
