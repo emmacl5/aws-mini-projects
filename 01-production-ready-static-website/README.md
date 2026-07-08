@@ -281,7 +281,7 @@ Cloud & DevOps Engineer
 
 ### 🌐 Connect with Me
 
-| Platform | Link |
-|----------|------|
-| GitHub | https://github.com/emmacl5 |
+| Platforms | Links |
+|----------|------  |
+| GitHub   | https://github.com/emmacl5 |
 | LinkedIn | https://www.linkedin.com/in/emmanuel-ouamba-418421116 |
