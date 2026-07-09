@@ -28,7 +28,8 @@ Users will submit a long URL through an API endpoint, and the application will g
 
 ## 🏗️ Architecture
 
-Architecture diagram will be added later.
+![Serverless URL Shortener Architecture](architecture/architecture.png)
+
 
 ---
 

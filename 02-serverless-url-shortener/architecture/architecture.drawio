@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="caVj0bJrPPkejYILRz1P">
+    <mxGraphModel dx="1385" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;fillOpacity=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Serverless URL Shortener on AWS&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="400" x="200" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;strokeOpacity=0;" value="&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(87, 82, 82), rgb(237, 237, 237));&quot;&gt;Amazon API Gateway + AWS Lambda + Amazon DynamoDB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="420" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-3" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="" vertex="1">
+          <mxGeometry height="100" width="100" x="190" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-14" edge="1" parent="1" source="Rh25Bf8e90bOP8UoptDW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-26" edge="1" parent="1" source="Rh25Bf8e90bOP8UoptDW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-4" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" value="" vertex="1">
+          <mxGeometry height="100" width="100" x="190" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-5" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" value="Amazon DynamoDB" vertex="1">
+          <mxGeometry height="125" width="99" x="200" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-7" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudwatch_logs;" value="" vertex="1">
+          <mxGeometry height="81.8" width="110" x="560" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;strokeOpacity=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;🌍 Internet Users&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="182" x="268" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;strokeOpacity=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;AWS Cloud&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-13" edge="1" parent="1" source="Rh25Bf8e90bOP8UoptDW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;strokeOpacity=0;" value="Amazon API Gateway&lt;div&gt;POST /shorten&amp;nbsp;&lt;div&gt;&amp;nbsp;GET /{code}&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeOpacity=0;fillOpacity=0;spacingTop=2;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AWS Lambda&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Generate Short URL&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;Redirect Requests&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="100" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;strokeOpacity=0;spacingTop=9;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Amazon CloudWatch&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Logs&lt;br&gt;&lt;br&gt;Monitoring&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="580" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;strokeOpacity=0;" value="Amazon DynamoDB&lt;br&gt;&lt;br&gt;URL Mapping&lt;br&gt;&lt;div&gt;shortCode -&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Original URL&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="90" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;strokeOpacity=0;opacity=50;" value="Designed by Claude Emmanuel Ouamba&amp;nbsp;&lt;div&gt;&amp;nbsp;AWS Certified Solutions Architect&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="380" x="160" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;" value="" vertex="1">
+          <mxGeometry height="720" width="600" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh25Bf8e90bOP8UoptDW-24" edge="1" parent="1" source="Rh25Bf8e90bOP8UoptDW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.242;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" target="Rh25Bf8e90bOP8UoptDW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
