@@ -1,5 +1,13 @@
 # Project 02: Serverless URL Shortener on AWS
 
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
+![API Gateway](https://img.shields.io/badge/API_Gateway-HTTP_API-FF4F8B?logo=amazonapigateway)
+![Lambda](https://img.shields.io/badge/AWS-Lambda-FF9900?logo=awslambda)
+![DynamoDB](https://img.shields.io/badge/Amazon-DynamoDB-4053D6?logo=amazondynamodb)
+![IAM](https://img.shields.io/badge/AWS-IAM-DD344C?logo=amazonaws)
+![CloudWatch](https://img.shields.io/badge/Amazon-CloudWatch-FF4F8B?logo=amazoncloudwatch)
+
+
 ## 📖 Project Overview
 
 This project demonstrates how to build a production-ready serverless URL shortener on AWS using modern cloud-native services.
