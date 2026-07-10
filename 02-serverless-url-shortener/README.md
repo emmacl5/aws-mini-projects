@@ -8,6 +8,17 @@
 ![CloudWatch](https://img.shields.io/badge/Amazon-CloudWatch-FF4F8B?logo=amazoncloudwatch)
 
 
+| Property | Value |
+|----------|-------|
+| Status | ✅ Completed |
+| Architecture | Serverless |
+| Region | us-east-2 |
+| Runtime | Python 3.13 |
+| API Type | HTTP API |
+| Database | Amazon DynamoDB |
+
+
+
 ## 📖 Project Overview
 
 This project demonstrates how to build a production-ready serverless URL shortener on AWS using modern cloud-native services.
