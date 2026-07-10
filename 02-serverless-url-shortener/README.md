@@ -7,7 +7,7 @@
 ![IAM](https://img.shields.io/badge/AWS-IAM-DD344C?logo=amazonaws)
 ![CloudWatch](https://img.shields.io/badge/Amazon-CloudWatch-FF4F8B?logo=amazoncloudwatch)
 
-## Quick Facts
+## 📋 Quick Facts
 
 | Property | Value |
 |----------|-------|
