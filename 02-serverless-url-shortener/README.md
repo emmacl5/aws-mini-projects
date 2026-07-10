@@ -93,7 +93,37 @@ Base URL
 
 https://cmrl73peg0.execute-api.us-east-2.amazonaws.com/prod
 
----
+--- 
+
+## Example Request
+
+```bash
+curl -X POST \
+https://cmrl73peg0.execute-api.us-east-2.amazonaws.com/prod/shorten \
+-H "Content-Type: application/json" \
+-d '{"longUrl":"https://www.google.com"}'
+```
+
+Response
+
+```json
+{
+  "shortCode": "XaFcww",
+  "longUrl": "https://www.google.com"
+}
+```
+
+```bash
+curl -i https://cmrl73peg0.execute-api.us-east-2.amazonaws.com/prod/XaFcww
+```
+
+Response
+
+```text
+HTTP/2 302
+Location: https://www.google.com
+```
+
 
 ## ✨ Features
 
@@ -108,6 +138,19 @@ https://cmrl73peg0.execute-api.us-east-2.amazonaws.com/prod
 - ✅ Pay-per-request pricing
 
 --- 
+
+## 💡 Skills Demonstrated
+
+- Serverless application development
+- REST API design
+- AWS Lambda
+- Amazon API Gateway
+- Amazon DynamoDB
+- IAM permissions
+- CloudWatch logging
+- Python development
+- AWS architecture design
+- Troubleshooting and debugging 
 
 ## 📌 API Endpoints
 
