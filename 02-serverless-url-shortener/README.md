@@ -87,6 +87,14 @@ By completing this project I learned how to:
 
 ---
 
+## 🚀 Live API
+
+Base URL
+
+https://cmrl73peg0.execute-api.us-east-2.amazonaws.com/prod
+
+---
+
 ## ✨ Features
 
 - ✅ Serverless architecture
