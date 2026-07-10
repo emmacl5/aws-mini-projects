@@ -7,6 +7,7 @@
 ![IAM](https://img.shields.io/badge/AWS-IAM-DD344C?logo=amazonaws)
 ![CloudWatch](https://img.shields.io/badge/Amazon-CloudWatch-FF4F8B?logo=amazoncloudwatch)
 
+## Quick Facts
 
 | Property | Value |
 |----------|-------|
@@ -16,6 +17,24 @@
 | Runtime | Python 3.13 |
 | API Type | HTTP API |
 | Database | Amazon DynamoDB |
+
+
+## 📑 Table of Contents
+
+- Project Overview
+- AWS Services Used
+- Learning Objectives
+- Architecture
+- Features
+- API Endpoints
+- Screenshots
+- Deployment Summary
+- Security Best Practices
+- Estimated Cost
+- Cleanup
+- Lessons Learned
+- Future Improvements
+- Author
 
 
 
