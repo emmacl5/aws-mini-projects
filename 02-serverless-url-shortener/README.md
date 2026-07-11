@@ -161,6 +161,99 @@ Location: https://www.google.com
 
 ---
 
+## 📸 Screenshots 
+
+### Amazon DynamoDB Table
+
+The application stores URL mappings in Amazon DynamoDB.
+
+![DynamoDB Table](images/dynamodb-table.png)
+
+### DynamoDB Items
+
+The generated short URL mappings are stored in DynamoDB.
+
+![DynamoDB Items](images/dynamodb-items.png)
+
+
+### AWS Lambda Functions
+
+The application uses two AWS Lambda functions to implement the serverless backend.
+
+#### createShortUrl
+
+The **createShortUrl** Lambda function receives a long URL from the HTTP API, generates a unique short code, stores the URL mapping in Amazon DynamoDB, and returns the shortened URL to the client.
+
+![createShortUrl Lambda](images/create-short-url-code.png)
+
+---
+
+#### redirectUrl
+
+The **redirectUrl** Lambda function retrieves the original URL from Amazon DynamoDB using the supplied short code and returns an HTTP **302 Redirect** response, automatically redirecting users to the original website.
+
+![redirectUrl Lambda](images/redirect-url-code.png) 
+
+### API Gateway Overview
+
+Amazon API Gateway provides the public HTTP interface for the serverless application. It receives incoming client requests and securely routes them to the appropriate AWS Lambda function.
+
+The API is deployed using an **HTTP API**, which offers low latency, automatic scaling, and cost-effective request handling for serverless workloads.
+
+**Key Configuration**
+
+- **API Name:** `url-shortener-api`
+- **API Type:** HTTP API
+- **Stage:** `prod`
+- **AWS Region:** `us-east-2 (Ohio)`
+- **Auto Deploy:** Enabled
+
+![API Gateway Overview](images/api-gateway-overview.png)
+
+### API Gateway Routes
+
+The HTTP API exposes two endpoints.
+
+![Routes](images/api-routes.png)
+
+
+### API Test
+
+Creating a short URL using the HTTP API.
+
+![API Test](images/api-test.png)
+
+### Redirect Test
+
+The redirect functionality was verified by sending an HTTP **GET** request to the generated short URL. The **redirectUrl** AWS Lambda function successfully retrieved the original URL from Amazon DynamoDB and returned an **HTTP 302 Redirect** response.
+
+The response included the **Location** header pointing to the original destination, confirming that the application correctly redirects users to the intended website.
+
+**Test Command**
+
+```bash
+curl -i https://cmrl73peg0.execute-api.us-east-2.amazonaws.com/prod/XaFcww
+```
+
+**Expected Response**
+
+```http
+HTTP/2 302
+Location: https://www.google.com
+```
+
+![Redirect Test](images/redirect-test.png)
+
+
+### CloudWatch Logs
+
+CloudWatch provides logging and monitoring for the Lambda functions.
+
+![CloudWatch Logs](images/cloudwatch-logs.png)
+
+
+
+
 ## 🚀 Deployment Summary
 
 The deployment included:
