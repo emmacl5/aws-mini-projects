@@ -1,4 +1,4 @@
-# AWS Mini Projects
+✅ Completed# AWS Mini Projects
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
 ![CloudFormation](https://img.shields.io/badge/IaC-CloudFormation-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -16,7 +16,7 @@ My goal is to strengthen my cloud engineering skills by building production-insp
 | Project | Status | AWS Services |
 |---------|--------|--------------|
 | Production-Ready Static Website Hosting | ✅ Completed | Amazon S3, CloudFront, Origin Access Control (OAC) |
-| Serverless Application | 🚧 In Progress | AWS Lambda, API Gateway, DynamoDB, IAM, CloudWatch |
+| Serverless Application |  ✅ Completed | AWS Lambda, API Gateway, DynamoDB, IAM, CloudWatch |
 | Event-Driven Application | ⏳ Planned | Amazon EventBridge, Amazon SQS, Amazon SNS, AWS Lambda |
 | Three-Tier Web Application | ⏳ Planned | Amazon EC2, Application Load Balancer, Auto Scaling, Amazon RDS, VPC |
 
